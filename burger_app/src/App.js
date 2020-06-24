@@ -1,6 +1,21 @@
 import React from 'react';
+import Layout from './Components/Layout/layout';
 import logo from './logo.svg';
 import './App.css';
+
+class App extends Component {
+   render() {
+     return (
+       <div>
+       <Layout>
+           <p>Test</p>
+         </Layout>
+         </div>
+        );
+      }
+    }
+
+      export default App;
 
 function App() {
   return (
